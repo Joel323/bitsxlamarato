@@ -33,7 +33,7 @@ def click_event(event, x, y, flags, params):
 
 
 
-vidcap = cv2.VideoCapture('002-22 BemA videos_2022-03-09-10-10-44_1.avi')
+vidcap = cv2.VideoCapture('circDolent.avi')
 success,image = vidcap.read()
 
 cv2.imshow('starting image', image)
